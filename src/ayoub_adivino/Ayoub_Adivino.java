@@ -2,6 +2,8 @@ package ayoub_adivino;
 
 // Ayoub Hiar
 
+//Funciona correctamente, corregido por ANTON GEYKO GEYKO.
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -28,7 +30,16 @@ public class Ayoub_Adivino {
             cont++;
         } while (n != randomNum);
         System.out.print("Exelente!!! Haz acertado , No. de intentos: "+cont );
-        sc.close();   
+        sc.close();
+        
+        //Corregido mediante el siguiente metodo
+             /*for(int i=1 ; i<=100; i++) {
+        int randomNum = rand.nextInt((max - min) + 1) + min;
+        System.out.println(randomNum);
+    }*/
+             
     }
+    
+
     
 }
